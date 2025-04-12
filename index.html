@@ -3,11 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kiss Fitness</title>
+  <title>Ajude a Causa</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bem-vinda à Kiss Fitness</h1>
-  <p>Moda fitness com estilo, conforto e performance.</p>
+  <header>
+    <h1>Apoie essa causa com amor</h1>
+    <img src="https://via.placeholder.com/400x250" alt="Imagem destacada">
+  </header>
+
+  <main>
+    <section class="descricao">
+      <p>
+        Essa campanha foi criada para ajudar quem mais precisa. Sua doação pode transformar vidas e levar esperança a quem perdeu tudo. Qualquer valor já faz uma grande diferença.
+      </p>
+    </section>
+
+    <section class="botoes">
+      <h2>Escolha um valor para doar:</h2>
+      <div class="valores">
+        <button onclick="doar(10)">R$10</button>
+        <button onclick="doar(25)">R$25</button>
+        <button onclick="doar(50)">R$50</button>
+        <button onclick="doar(100)">R$100</button>
+      </div>
+    </section>
+
+    <section class="progresso">
+      <p>Meta: R$5.000</p>
+      <progress value="1200" max="5000"></progress>
+      <p>R$1.200 arrecadados até agora</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Entre em contato: contato@seudominio.com</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
